@@ -5,8 +5,7 @@
 **The Content**
 
 
-  * [What is it Git?](#what-is-it-)
-        * [Version Control System](#version-control-system)
+  * [Version Control System](#version-control-system)
   * [Three Stages of a File](#three-stages-of-a-file)
   * [Three States of git project](#three-states-of-git-project)
   * [Command Line](#command-line)
