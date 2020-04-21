@@ -2,9 +2,13 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/aboelkassem/Git/blob/master/Git.pdf)
 
-## What is Git?
+**The Content**
 
-Version Control System
+[TOC]
+
+## What is it?
+
+##### Version Control System
 - Software designed to record changes to files over time
 - Ability to revert back to previous file version or project version
 - Compare changes made to files from one version to another
@@ -25,6 +29,7 @@ when changes finished and ready to commit.
 ## Command Line
 
 > [github-git-cheat-sheet.pdf](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+
 > [git-docs-all-commends](https://git-scm.com/docs/git#_git_commands)
 
 ### Tracked files by git has three stages
@@ -44,6 +49,7 @@ repositories
 mean that git sees a new file that didn't exist in her last commit. and add them to stage are to
 be ready to commit
 
+
 ```
 $ git status
 $ git status --short
@@ -57,6 +63,7 @@ $ git diff --staged
  this commend answer the following two questions
 
 > 1- What changes have I staged that are ready to be committed?
+
 > 2- What changes have I made but not yet staged?
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6b5308b7-7582-420b-99d1-54bd104122d3/vlcsnap-2020-04-21-11h09m20s731.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200421%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200421T154954Z&X-Amz-Expires=86400&X-Amz-Signature=248cd4f6f7f2a0a408efc7e828ea5b50d7463d1e0ef14458f6f98dcc824dbc14&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22vlcsnap-2020-04-21-11h09m20s731.png%22)
@@ -66,7 +73,8 @@ $ git diff --staged
 After Commit push these files from local project to remote origin repository on github
 
 ```
-$ git push origin master$ touch <file_name> # create a new file
+$ git push origin master
+$ touch <file_name> # create a new file
 ```
 ### Track commits and see the history of previous commits
 ```
