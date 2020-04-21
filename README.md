@@ -5,6 +5,7 @@
 **The Content**
 
 
+<<<<<<< HEAD
 - [Version Control System](#version-control-system)
 - [Three Stages of a File](#three-stages-of-a-file)
 - [Three States of git project](#three-states-of-git-project)
@@ -20,6 +21,22 @@
   * [Git stash](#git-stash)
   * [Git reset](#git-reset)
 
+=======
+  * [Version Control System](#version-control-system)
+  * [Three Stages of a File](#three-stages-of-a-file)
+  * [Three States of git project](#three-states-of-git-project)
+  * [Command Line](#command-line)
+    + [Tracked files by git has three stages](#tracked-files-by-git-has-three-stages)
+    + [Untracked Files](#untracked-files)
+    + [Push committed changes to Origin Master branch](#push-committed-changes-to-origin-master-branch)
+    + [Track commits and see the history of previous commits](#track-commits-and-see-the-history-of-previous-commits)
+    + [Commit Message](#commit-message)
+    + [Remove and Move Files](#remove-and-move-files)
+    + [Branches](#branches)
+    + [Merge](#merge)
+    + [Git stash](#git-stash)
+    + [Git reset](#git-reset)
+>>>>>>> d20f20ca3973c9a34353e2537e31db60032b430f
 
 ## What is Git?
 
