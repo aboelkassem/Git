@@ -4,9 +4,24 @@
 
 **The Content**
 
-[TOC]
 
-## What is it?
+  * [What is it Git?](#what-is-it-)
+        * [Version Control System](#version-control-system)
+  * [Three Stages of a File](#three-stages-of-a-file)
+  * [Three States of git project](#three-states-of-git-project)
+  * [Command Line](#command-line)
+    + [Tracked files by git has three stages](#tracked-files-by-git-has-three-stages)
+    + [Untracked Files](#untracked-files)
+    + [Push committed changes to Origin Master branch](#push-committed-changes-to-origin-master-branch)
+    + [Track commits and see the history of previous commits](#track-commits-and-see-the-history-of-previous-commits)
+    + [Commit Message](#commit-message)
+    + [Remove and Move Files](#remove-and-move-files)
+    + [Branches](#branches)
+    + [Merge](#merge)
+    + [Git stash](#git-stash)
+    + [Git reset](#git-reset)
+
+## What is Git?
 
 ##### Version Control System
 - Software designed to record changes to files over time
