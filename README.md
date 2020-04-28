@@ -37,7 +37,7 @@ when make changes in last commit, just introduced new changes but has committed 
 when changes finished and ready to commit.
 
 ## Three States of git project
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/250e9652-aa36-4973-aac8-0d9de42ce9aa/vlcsnap-2020-04-19-17h00m49s358.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200421%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200421T153833Z&X-Amz-Expires=86400&X-Amz-Signature=cf85fe146f27ad3dcb16d9607a7d1451057a0c050113c8f33a1ff73555c98b37&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22vlcsnap-2020-04-19-17h00m49s358.png%22)
+![](https://github.com/aboelkassem/Git/blob/master/images/Three%20States%20of%20git%20project.png)
 
 ## Command Line
 
@@ -79,9 +79,9 @@ $ git diff --staged
 
 > 2- What changes have I made but not yet staged?
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6b5308b7-7582-420b-99d1-54bd104122d3/vlcsnap-2020-04-21-11h09m20s731.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200421%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200421T154954Z&X-Amz-Expires=86400&X-Amz-Signature=248cd4f6f7f2a0a408efc7e828ea5b50d7463d1e0ef14458f6f98dcc824dbc14&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22vlcsnap-2020-04-21-11h09m20s731.png%22)
+![](https://github.com/aboelkassem/Git/blob/master/images/git%20diff.png)
 ### Push committed changes to Origin Master branch
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/115b331e-0b74-4679-b31d-970a81149d58/vlcsnap-2020-04-21-11h33m34s653.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200421%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200421T155115Z&X-Amz-Expires=86400&X-Amz-Signature=4223bb92f5a67f5998da0fb9794402d3bb3e8cb5933ebb17c3512147d10390fd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22vlcsnap-2020-04-21-11h33m34s653.png%22)
+![](https://github.com/aboelkassem/Git/blob/master/images/push%20committed.png)
 
 After Commit push these files from local project to remote origin repository on github
 
@@ -130,12 +130,12 @@ $ git branch -m <old-name> <new-name> # rename a branch
 $ git branch -d <branch-name> # delete a branch
 $ git branch -D <branch-name> # Force delete a branch if this branch have commits do not merged yet
 ```
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e46f79f1-7c12-4027-9d92-6723ad0a0d3c/Capture.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200421%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200421T155756Z&X-Amz-Expires=86400&X-Amz-Signature=e20fc32f2eae9de3b9b62fb1aa9c3c6e48b023cfe8cf59a772e4832a968f5870&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Capture.png%22)
+![](https://github.com/aboelkassem/Git/blob/master/images/branches.png)
 
 ### Merge
 
 merge command it to merge branches with all it's commits and working files to master branch. if you are contributor you can make branches and working at them and merge them as pull request to your master branch and send it to origin master branch as also pull request to be merged
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/14e74003-287d-44d9-a8bd-ffa20fd5230d/Capture.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200421%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200421T155819Z&X-Amz-Expires=86400&X-Amz-Signature=620398267dfef3ab03806118c089399c8c40dfb0d1c2cf59e9e95ed1ec037a99&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Capture.png%22)
+![](https://github.com/aboelkassem/Git/blob/master/images/merge.png)
 
 ### Git stash
 git stash temporarily shelves (or stashes) changes you've made to your working copy. The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy
@@ -146,7 +146,7 @@ $ git stash pop # get the chages/files from stash to dropped back into his worki
 ```
 ### Git reset
 git reset allow us move commits from history back into our working or staging area
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4b2b793f-e882-4bfa-8ada-3a6e089c0840/vlcsnap-2020-04-21-16h01m05s279.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200421%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200421T160037Z&X-Amz-Expires=86400&X-Amz-Signature=28c0944c4f445adec5b30735c93678a03e8640b7709747f1c4e1ed407c565bf5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22vlcsnap-2020-04-21-16h01m05s279.png%22)
+![](https://github.com/aboelkassem/Git/blob/master/images/git%20reset.png)
 ```
 $ git reset --soft <head-of-commit>
 $ git reset --mixed <head-of-commit>
