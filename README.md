@@ -113,7 +113,8 @@ contributors there are blog that had a lot of information about these seven rule
 
 ```
 $ git rm <file-name> # remove file from project and git untracks it
-$ git rm --cached <file-name> # only git untracks it but keeping in local repo$ git mv <old-file-name> <new-name> # to rename file
+$ git rm --cached <file-name> # only git untracks it but keeping in local repo
+$ git mv <old-file-name> <new-name> # to rename file
 $ git reset head <file-name> # to stop tracking this file
 ```
 ### Branches
